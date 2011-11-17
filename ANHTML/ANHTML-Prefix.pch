@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ANHTML' target in the 'ANHTML' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
