@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAA720171476F6AE0059D7A6 /* ANHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA720041476F6AE0059D7A6 /* ANHTMLDocument.m */; };
+		FAA720181476F6AE0059D7A6 /* ANHTMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA720061476F6AE0059D7A6 /* ANHTMLElement.m */; };
+		FAA720191476F6AE0059D7A6 /* ANHTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA720081476F6AE0059D7A6 /* ANHTMLNode.m */; };
+		FAA7201A1476F6AE0059D7A6 /* ANHTMLTextNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA7200A1476F6AE0059D7A6 /* ANHTMLTextNode.m */; };
+		FAA7201B1476F6AE0059D7A6 /* ANHTMLAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA7200D1476F6AE0059D7A6 /* ANHTMLAttribute.m */; };
+		FAA7201C1476F6AE0059D7A6 /* ANHTMLAttributes+CSS.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA7200F1476F6AE0059D7A6 /* ANHTMLAttributes+CSS.m */; };
+		FAA7201D1476F6AE0059D7A6 /* ANHTMLAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA720111476F6AE0059D7A6 /* ANHTMLAttributes.m */; };
+		FAA7201E1476F6AE0059D7A6 /* ANHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA720141476F6AE0059D7A6 /* ANHTMLParser.m */; };
+		FAA7201F1476F6AE0059D7A6 /* StringFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA720161476F6AE0059D7A6 /* StringFeed.m */; };
 		FAFBEE161475D07000519960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFBEE151475D07000519960 /* Foundation.framework */; };
 		FAFBEE191475D07000519960 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFBEE181475D07000519960 /* main.m */; };
-		FAFBEE1D1475D07000519960 /* ANHTML.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FAFBEE1C1475D07000519960 /* ANHTML.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,18 +27,34 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				FAFBEE1D1475D07000519960 /* ANHTML.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FAA720031476F6AE0059D7A6 /* ANHTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANHTMLDocument.h; sourceTree = "<group>"; };
+		FAA720041476F6AE0059D7A6 /* ANHTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANHTMLDocument.m; sourceTree = "<group>"; };
+		FAA720051476F6AE0059D7A6 /* ANHTMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANHTMLElement.h; sourceTree = "<group>"; };
+		FAA720061476F6AE0059D7A6 /* ANHTMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANHTMLElement.m; sourceTree = "<group>"; };
+		FAA720071476F6AE0059D7A6 /* ANHTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANHTMLNode.h; sourceTree = "<group>"; };
+		FAA720081476F6AE0059D7A6 /* ANHTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANHTMLNode.m; sourceTree = "<group>"; };
+		FAA720091476F6AE0059D7A6 /* ANHTMLTextNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANHTMLTextNode.h; sourceTree = "<group>"; };
+		FAA7200A1476F6AE0059D7A6 /* ANHTMLTextNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANHTMLTextNode.m; sourceTree = "<group>"; };
+		FAA7200C1476F6AE0059D7A6 /* ANHTMLAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANHTMLAttribute.h; sourceTree = "<group>"; };
+		FAA7200D1476F6AE0059D7A6 /* ANHTMLAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANHTMLAttribute.m; sourceTree = "<group>"; };
+		FAA7200E1476F6AE0059D7A6 /* ANHTMLAttributes+CSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANHTMLAttributes+CSS.h"; sourceTree = "<group>"; };
+		FAA7200F1476F6AE0059D7A6 /* ANHTMLAttributes+CSS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANHTMLAttributes+CSS.m"; sourceTree = "<group>"; };
+		FAA720101476F6AE0059D7A6 /* ANHTMLAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANHTMLAttributes.h; sourceTree = "<group>"; };
+		FAA720111476F6AE0059D7A6 /* ANHTMLAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANHTMLAttributes.m; sourceTree = "<group>"; };
+		FAA720131476F6AE0059D7A6 /* ANHTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANHTMLParser.h; sourceTree = "<group>"; };
+		FAA720141476F6AE0059D7A6 /* ANHTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANHTMLParser.m; sourceTree = "<group>"; };
+		FAA720151476F6AE0059D7A6 /* StringFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringFeed.h; sourceTree = "<group>"; };
+		FAA720161476F6AE0059D7A6 /* StringFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringFeed.m; sourceTree = "<group>"; };
 		FAFBEE111475D07000519960 /* ANHTML */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ANHTML; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFBEE151475D07000519960 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAFBEE181475D07000519960 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FAFBEE1B1475D07000519960 /* ANHTML-Prefix.pch */ = {isa = PBXFileReference; path = "ANHTML-Prefix.pch"; sourceTree = "<group>"; };
-		FAFBEE1C1475D07000519960 /* ANHTML.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ANHTML.1; sourceTree = "<group>"; };
+		FAFBEE1B1475D07000519960 /* ANHTML-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ANHTML-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,10 +69,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FAA720011476F6AE0059D7A6 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				FAA720021476F6AE0059D7A6 /* ANHTMLDocument */,
+				FAA720121476F6AE0059D7A6 /* ANHTMLParser */,
+			);
+			path = HTML;
+			sourceTree = "<group>";
+		};
+		FAA720021476F6AE0059D7A6 /* ANHTMLDocument */ = {
+			isa = PBXGroup;
+			children = (
+				FAA720031476F6AE0059D7A6 /* ANHTMLDocument.h */,
+				FAA720041476F6AE0059D7A6 /* ANHTMLDocument.m */,
+				FAA720051476F6AE0059D7A6 /* ANHTMLElement.h */,
+				FAA720061476F6AE0059D7A6 /* ANHTMLElement.m */,
+				FAA720071476F6AE0059D7A6 /* ANHTMLNode.h */,
+				FAA720081476F6AE0059D7A6 /* ANHTMLNode.m */,
+				FAA720091476F6AE0059D7A6 /* ANHTMLTextNode.h */,
+				FAA7200A1476F6AE0059D7A6 /* ANHTMLTextNode.m */,
+				FAA7200B1476F6AE0059D7A6 /* Attributes */,
+			);
+			path = ANHTMLDocument;
+			sourceTree = "<group>";
+		};
+		FAA7200B1476F6AE0059D7A6 /* Attributes */ = {
+			isa = PBXGroup;
+			children = (
+				FAA7200C1476F6AE0059D7A6 /* ANHTMLAttribute.h */,
+				FAA7200D1476F6AE0059D7A6 /* ANHTMLAttribute.m */,
+				FAA7200E1476F6AE0059D7A6 /* ANHTMLAttributes+CSS.h */,
+				FAA7200F1476F6AE0059D7A6 /* ANHTMLAttributes+CSS.m */,
+				FAA720101476F6AE0059D7A6 /* ANHTMLAttributes.h */,
+				FAA720111476F6AE0059D7A6 /* ANHTMLAttributes.m */,
+			);
+			path = Attributes;
+			sourceTree = "<group>";
+		};
+		FAA720121476F6AE0059D7A6 /* ANHTMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				FAA720131476F6AE0059D7A6 /* ANHTMLParser.h */,
+				FAA720141476F6AE0059D7A6 /* ANHTMLParser.m */,
+				FAA720151476F6AE0059D7A6 /* StringFeed.h */,
+				FAA720161476F6AE0059D7A6 /* StringFeed.m */,
+			);
+			path = ANHTMLParser;
+			sourceTree = "<group>";
+		};
 		FAFBEE061475D07000519960 = {
 			isa = PBXGroup;
 			children = (
-				FAFBEE171475D07000519960 /* ANHTML */,
+				FAA720011476F6AE0059D7A6 /* HTML */,
+				FAFBEE171475D07000519960 /* Example */,
 				FAFBEE141475D07000519960 /* Frameworks */,
 				FAFBEE121475D07000519960 /* Products */,
 			);
@@ -70,13 +144,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FAFBEE171475D07000519960 /* ANHTML */ = {
+		FAFBEE171475D07000519960 /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				FAFBEE181475D07000519960 /* main.m */,
-				FAFBEE1C1475D07000519960 /* ANHTML.1 */,
 				FAFBEE1A1475D07000519960 /* Supporting Files */,
 			);
+			name = Example;
 			path = ANHTML;
 			sourceTree = "<group>";
 		};
@@ -139,6 +213,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAFBEE191475D07000519960 /* main.m in Sources */,
+				FAA720171476F6AE0059D7A6 /* ANHTMLDocument.m in Sources */,
+				FAA720181476F6AE0059D7A6 /* ANHTMLElement.m in Sources */,
+				FAA720191476F6AE0059D7A6 /* ANHTMLNode.m in Sources */,
+				FAA7201A1476F6AE0059D7A6 /* ANHTMLTextNode.m in Sources */,
+				FAA7201B1476F6AE0059D7A6 /* ANHTMLAttribute.m in Sources */,
+				FAA7201C1476F6AE0059D7A6 /* ANHTMLAttributes+CSS.m in Sources */,
+				FAA7201D1476F6AE0059D7A6 /* ANHTMLAttributes.m in Sources */,
+				FAA7201E1476F6AE0059D7A6 /* ANHTMLParser.m in Sources */,
+				FAA7201F1476F6AE0059D7A6 /* StringFeed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +312,7 @@
 				FAFBEE221475D07000519960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
